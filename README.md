@@ -1,4 +1,8 @@
+[![Build Status](https://app.bitrise.io/app/30780cbfc9482ff6/status.svg?token=q24RvGeSG3hQiDJi_GQyFQ&branch=master)](https://app.bitrise.io/app/30780cbfc9482ff6)
+
 # VaderSharp. The best sentiment analysis tool. In C#.
+
+**NOTE:** This is a fork of [codingupastorm](https://github.com/codingupastorm)'s excellent [VaderSharp library](https://github.com/codingupastorm/vadersharp).
 
 "VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media."
 
@@ -9,14 +13,14 @@ Previously VADER was only available in python (https://github.com/cjhutto/vaderS
 VaderSharp supports:
 
 - .NET Core
-- .NET Framework 3.5 and above
+- ~.NET Framework 3.5 and above~
 - Mono & Xamarin
 - UWP
 
 To install VaderSharp, run the following command in the Package Manager Console:
 
 ```
-Install-Package CodingUpAStorm.VaderSharp
+Install-Package Dids.VaderSharp
 ```
 
 # Usage
